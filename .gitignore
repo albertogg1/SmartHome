@@ -1,0 +1,9 @@
+# Virtual environment for backend and MLOps
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Docs
+detail.md
