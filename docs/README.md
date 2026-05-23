@@ -2,7 +2,7 @@
 
  Este repositorio contiene un proyecto educativo de hogar inteligente basado en un ESP32 con un sensor de temperatura y humedad. El objetivo es trabajar los conceptos básicos de IoT: cómo un dispositivo físico envía datos de temperatura y humedad a un backend, y cómo esos datos se visualizan en una interfaz web.
 
- <p align="center"><img src="prototipo.JPEG" alt="Prototipo" style="max-width:400px; width:100%; height:auto;"></p>
+ <p align="center"><img src="prototipo.JPEG" alt="Prototipo" width="400"></p>
 
  ## Resumen
 
