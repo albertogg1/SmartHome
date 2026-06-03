@@ -1,4 +1,5 @@
-.vscode/
+**/.vscode/*
+
 
 # Virtual environment for backend and MLOps
 .venv/

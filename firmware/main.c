@@ -1,25 +1,12 @@
-#include <stdio.h>
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-
-void pantalla_task(void *pvParameters)
+extern void app_initialize(void)
 {
-    while(1)
-    {
-        printf("Pantalla OK\n");
+    app_data_init();
 
-        vTaskDelay(pdMS_TO_TICKS(1000));
-    }
-}
+    display_init();
+    ui_init();
 
-void app_main(void)
-{
-    xTaskCreate(
-        pantalla_task,
-        "pantalla_task",
-        2048,
-        NULL,
-        1,
-        NULL
-    );
+    sensor_init();
+
+    start_sensor_task();
+    start_ui_task();
 }
